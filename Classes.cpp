@@ -126,7 +126,7 @@ void deleteMedia(vector<Media*> &newv) {
         cin >> year;
         
         for (int i = 0; i < newv.size(); i++) {
-            if (newv[i]->getYear() == deleteyear) {
+            if (newv[i]->getYear() == year) {
                 newv[i]->print();
                 cout << "Are you sure you want to delete this media? Enter 'Y' to continue.";
                 cin >> confirm;

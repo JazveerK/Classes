@@ -9,7 +9,7 @@ void Music::addArtistName(char* newartistName) {
   strcpy(artistName, newartistName);
 }
 void Music::addDuration(int newduration) {
-  length = newduration;
+  duration = newduration;
 }
 void Music::print(){
   cout << "Title: " << title << endl;
